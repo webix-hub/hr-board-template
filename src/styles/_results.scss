@@ -1,0 +1,39 @@
+.image {
+    width: 120px;
+    height: 120px;
+    flex-shrink: 0;
+    margin-right: 30px;
+    img {
+        height: 100%;
+        display: block;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+}
+
+.name {
+    font-size: 18px;
+    color: #313131;
+}
+
+.tag {
+    color: #1CA1C1;
+    &:not(:first-of-type) {
+        margin-left: 10px;
+    }
+}
+
+
+.cleanTemplate {
+	.webix_template {
+		padding: 0;
+		margin: 0;
+	}
+}
+
+.centerTemplate {
+	.webix_template {
+		display: flex;
+		align-items: center;
+	}
+}

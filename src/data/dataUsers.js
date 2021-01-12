@@ -1,0 +1,4 @@
+export const dataUsers = [
+	{id: 1, name: "Joseph Spancer", image: "./assets/img/spancer.jpg", tags: ["Illustrator", "HTML", "CSS", "PSD Template", "Java"], rate: "25 / hr", status: "Entry Level", rating: "85", location: "Moldova", about: "I can do anything at any cost with lowest possible effort"},
+	{id: 2, name: "Benjamin M.", image: "./assets/img/benjamin.jpg", tags: ["PSD Template", "HTML", "CSS", "Bootstrap", "JavaScript"], rate: "60 / hr", status: "Intermediate", rating: "90", location: "USA", about: "I'm working as designer for 10 years already. I have professional skills in Adobe aplications like Photoshop, Illustrator and InDesign, providing you speed and accuracy in completing the job. I have good imagination and high working potential (including very urgent projects and terms). I'll make your thougts become true in your business and understand all the tips you'll give to me. Thank you in advance."}
+];
